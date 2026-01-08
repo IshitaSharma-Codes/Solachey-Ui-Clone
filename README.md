@@ -15,8 +15,9 @@ This project replicates the design and functionality of the Solachey website wit
     - └── style.css     # Custom styles
     - |__ media.css 
  - js/ 
-    - └── app.js     # JavaScript functionality 
- -images/       # Logos, banners, product images 
+    - └── app.js     # JavaScript functionality
+ 
+ - images/       # Logos, banners, product images 
  - README.md         # Project documentation
 
 
@@ -45,5 +46,10 @@ This project replicates the design and functionality of the Solachey website wit
 
 
 ## 📦 Installation & Usage
+https://github.com/IshitaSharma-Codes/Solachey-Ui-Clone/tree/main
+
+---
+
+# Live Link
 
 
