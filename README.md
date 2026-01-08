@@ -6,18 +6,18 @@ This project replicates the design and functionality of the Solachey website wit
 ---
 
 ## 📑 Project Structure
- -index.html        # Home Page 
+ -index.html         # Home Page 
  - about.html        # About Page
  - product.html      # Product Page
  - blog.html         # Blog Page
  - contact.html      # Contact Page
  - css/
-    - └── style.css     # Custom styles
-    - |__ media.css 
+    -  style.css      # Custom styles
+    -  media.css 
  - js/ 
-    - └── app.js     # JavaScript functionality
+    -  app.js       # JavaScript functionality
  
- - images/       # Logos, banners, product images 
+ - images/           # Logos, banners, product images 
  - README.md         # Project documentation
 
 
