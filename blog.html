@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Solachey</title>
+</head>
+
+<body>
+    <!--Header Enquiry Modal-->
+    <div class="modal" id="enBtn" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div>
+                            <input class="w-100 border" type="text" placeholder="Your Name*" required />
+                            <input class="w-100 border" type="email" placeholder="Your Email*" required />
+                            <input class="w-100 border" type="tel" placeholder="Your Phone*" required />
+                            <textarea name="" id="" class="border" placeholder="Message*" required></textarea>
+                            <button id="sendMsgBtn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mobile Header-->
+    <div class="offcanvas offcanvas-start" id="mobileMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="images/imgi_1_logo.svg" width="80px" />
+            </h5>
+
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="product.html">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--headerSection-->
+
+    <header class="container-fluid bg-white px-lg-5 z-3" id="productHeader">
+        <nav class="navbar navbar-expand-lg p-0">
+            <a href="" class="navbar-brand">
+                <img src="images/imgi_1_logo.svg" width="160px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="headerNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link " href="product.html">
+                        Products
+                    </a>
+                </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#enBtn" id="headerBtn" type="submit">Enquiry
+                    Now</button>
+            </div>
+        </nav>
+    </header>
+
+    <!--Blog Slider-->
+    <section class="container-fluid py-lg-5 py-3 ">
+        <div class="row">
+            <div class="owl-carousel owl-theme">
+                <div class="item blogOutter">
+                    <img src="images/imgi_3_Proactive-AC-Maintenance-for-Workplace-400x700-1.png"
+                        class="card-img-top img-fluid" alt="..." />
+                    <div class="BlogContent text-center">
+                        <h3 class="">Avoid Costly Breakdowns: Proactive AC Maintenance for the Workplace</h3>
+                        <a href="#" class="btn text-white ">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="item blogOutter">
+                    <img src="images/imgi_4_heavy-duty-fans-400x700-1.webp" class="card-img-top img-fluid" alt="..." />
+                    <div class="BlogContent text-center">
+                        <h3 class="">The Future of Heavy-Duty Fans: Smart Technology & Automation</h3>
+                        <a href="#" class="btn text-white ">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="item blogOutter">
+                    <img src="images/imgi_5_modren-home-lighting-400x700-1.png" class="card-img-top img-fluid"
+                        alt="..." />
+                    <div class="BlogContent text-center">
+                        <h3 class="">The Future of Lighting: Smart Systems for Modern Homes</h3>
+                        <a href="#" class="btn text-white ">Continue Reading</a>
+                    </div>
+                </div>
+                <div class="item blogOutter">
+                    <img src="images/imgi_6_role-of-HVAC_-400x700-1.png" class="card-img-top img-fluid" alt="..." />
+                    <div class="BlogContent text-center">
+                        <h3 class="">Role of HVAC Systems in Commercial Building Sustainability</h3>
+                        <a href="#" class="btn text-white ">Continue Reading</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--Recent Post-->
+    <section class="container-fluid py-lg-5 py-3">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <form action="">
+                        <input type="search" class="border" placeholder="Search">
+                    </form>
+                    <div class="card recentPostOutter">
+                        <div class="row g-0 align-items-center recentPost">
+                            <div class="col-md-4 text-center">
+                                <img src="images/imgi_3_Proactive-AC-Maintenance-for-Workplace-400x700-1.png"
+                                    class="img-fluid " alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">Avoid Costly Breakdowns: Proactive AC Maintenance for the
+                                        Workplace</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card recentPostOutter">
+                        <div class="row g-0 align-items-center recentPost">
+                            <div class="col-md-4 text-center">
+                                <img src="images/imgi_4_heavy-duty-fans-400x700-1.webp" class="img-fluid " alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">The Future of Heavy-Duty Fans: Smart Technology & Automation
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card recentPostOutter">
+                        <div class="row g-0 align-items-center recentPost">
+                            <div class="col-md-4 text-center">
+                                <img src="images/imgi_5_modren-home-lighting-400x700-1.png" class="img-fluid "
+                                    alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">The Future of Lighting: Smart Systems for Modern Homes</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card recentPostOutter">
+                        <div class="row g-0 align-items-center recentPost">
+                            <div class="col-md-4 text-center">
+                                <img src="images/imgi_6_role-of-HVAC_-400x700-1.png" class="img-fluid " alt="..." />
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body">
+                                    <p class="card-text">Role of HVAC Systems in Commercial Building Sustainability</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="card recentPostContent">
+                                <div class="ourPostImg">
+                                    <img src="images/imgi_3_Proactive-AC-Maintenance-for-Workplace-400x700-1.png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Avoid Costly Breakdowns: Proactive AC Maintenance for the
+                                        Workplace</h4>
+                                    <p class="card-text">In commercial environments, an efficiently operating air
+                                        conditioning (AC) system is essential for maintaining optimal working conditions
+                                        and
+                                        productivity. However,...</p>
+                                    <a href="#" class="btn text-success">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card recentPostContent">
+                                <div class="ourPostImg">
+                                    <img src="images/imgi_4_heavy-duty-fans-400x700-1.webp"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">The Future of Heavy-Duty Fans: Smart Technology & Automation
+                                    </h4>
+                                    <p class="card-text">The field of industrial ventilation has undergone a profound
+                                        transformation, evolving from rudimentary mechanical fans to highly
+                                        sophisticated, data-driven systems....</p>
+                                    <a href="#" class="btn text-success">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card recentPostContent">
+                                <div class="ourPostImg">
+                                    <img src="images/imgi_5_modren-home-lighting-400x700-1.png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">The Future of Lighting: Smart Systems for Modern Homes
+                                    </h4>
+                                    <p class="card-text">The way we illuminate our homes is undergoing a technological
+                                        revolution. Gone are the days of simple light bulbs with...</p>
+                                    <a href="#" class="btn text-success">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="card recentPostContent">
+                                <div class="ourPostImg">
+                                    <img src="images/imgi_6_role-of-HVAC_-400x700-1.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Role of HVAC Systems in Commercial Building Sustainability
+                                    </h4>
+                                    <p class="card-text">In the quest for greener commercial spaces, HVAC systems emerge
+                                        as significant contributors to energy consumption and carbon emissions. By...
+                                    </p>
+                                    <a href="#" class="btn text-success">Continue Reading</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!--Footer Section-->
+    <footer class="container-fluid py-lg-5 py-3 footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC1">
+                        <img src="images/imgi_1_logo.svg" class="img-fluid" />
+                        <h3>Transform Your Space with Solachey!</h3>
+                        <h5>Social Media:</h5>
+                        <div class="footerLogo">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC2">
+                        <h5>Address</h5>
+                        <p>18 St, Shuwaikh Industrial Kuwait</p>
+                        <h4>Working Hours – </h4>
+                        <h4>Shuwaikh – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 3:30 PM – 8:00 PM, Friday: Closed
+                        </p>
+                        <h4>Hawally – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 4:00 PM – 9:00 PM, Friday: Closed
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-12 text-start">
+                    <div class="footerC3">
+                        <h5>CATEGORIES</h5>
+                        <ul>
+                            <li><a href="">HVAC Product</a></li>
+                            <li><a href="">Illumination & Light sources</a></li>
+                            <li><a href="">Led Fixtures</a></li>
+                            <li><a href="">Ventilation Products</a></li>
+                            <li><a href="">Wires</a></li>
+                            <li><a href="">Wiring Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <form>
+                        <h5>Enquire Now</h5>
+                        <input type="text" placeholder="Your Name*" pattern="[a-z A-Z]{2 30}" required />
+                        <input type="email" placeholder="Your Email*" required />
+                        <input type="tel" placeholder="Phone*" pattern="[0-9]{10}" required />
+                        <textarea placeholder="Message*" required>
+					        </textarea>
+                        <button id="sendMsgBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="text-center py-2 footerLower">
+            <p>Copyright 2025© <span>Solachey</span> all rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+
+
+    
+    <!--side logo-->
+    <div class="sideLogoOutter">
+        <div class="sideLogo">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+    </div>
+
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+<script src="js/app.js"></script>

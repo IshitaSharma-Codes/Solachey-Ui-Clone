@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Solachey-Contact</title>
+</head>
+
+<body>
+    <!--Header Enquiry Modal-->
+    <div class="modal" id="enBtn" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div>
+                            <input class="w-100 border" type="text" placeholder="Your Name*" required />
+                            <input class="w-100 border" type="email" placeholder="Your Email*" required />
+                            <input class="w-100 border" type="tel" placeholder="Your Phone*" required />
+                            <textarea name="" id="" class="border" placeholder="Message*" required></textarea>
+                            <button id="sendMsgBtn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mobile Header-->
+    <div class="offcanvas offcanvas-start" id="mobileMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="images/imgi_1_logo.svg" width="80px" />
+            </h5>
+
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="product.html">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--headerSection-->
+
+    <header class="container-fluid bg-white px-lg-5 z-3" id="header">
+        <nav class="navbar navbar-expand-lg p-0">
+            <a href="" class="navbar-brand">
+                <img src="images/imgi_1_logo.svg" width="160px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="headerNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="product.html">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#enBtn" id="headerBtn" type="submit">
+                    Enquiry Now
+                </button>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="container-fluid px-0 heroSection">
+        <img src="images/imgi_3_contact-us-banner-new.png" alt="About-us-banner"
+            class="img-fluid w-100 d-md-block d-none" />
+        <img src="images/imgi_5_contact-us-banner-mobile-new.png" alt="" class="img-fluid w-100 d-md-none d-block">
+        <h1>Contact Us</h1>
+        </div>
+    </section>
+
+
+    <!--contact section-->
+    <section class="container-fluid px-0 py-lg-5 py-3">
+        <div class="container">
+            <div class="row">
+                <div class=" col-lg-4 col-12">
+                    <div class="card border mb-4 shadow">
+                        <div class="card-header text-center" id="contactHeading">Shuwaikh – Kuwait</div>
+                        <div class="card-body" id="contactContent">
+                            <h6 class="card-title">18 St, Shuwaikh Industrial Kuwait</h6>
+                            <p class="card-text"><a href="tel:96565805100">Phone: +965 6580 5100</a></p>
+                            <p class="card-text"><a href="mailto:customersupport@solachey.com">Email:
+                                    customersupport@solachey.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-12">
+                    <div class="card border mb-4 shadow">
+                        <div class="card-header text-center" id="contactHeading">Hawally – Kuwait</div>
+                        <div class="card-body" id="contactContent">
+                            <h6 class="card-title">Block 7, Street 262, Showroom no: 09, Abdul Wahab Al Mutawa Building</h6>
+                            <p class="card-text"><a href="tel:965 22645682">Phone:+965 22645682</a></p>
+                            <p class="card-text"><a href="mailto:customersupport@solachey.com">Email:
+                                    customersupport@solachey.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-12">
+                    <div class="card border mb-4 shadow">
+                        <div class="card-header text-center" id="contactHeading">China</div>
+                        <div class="card-body" id="contactContent">
+                            <h6 class="card-title">Dongxing Zhong Lu,Guzhen, Zhongshan City, Guangdong -China Location – J5CV+82 Zhongshan, Guangdong Province, China</h6>
+                            <p class="card-text"><a href="tel:86 181 3865 8384">Phone: +86 181 3865 8384</a></p>
+                            <p class="card-text"><a href="mailto:customersupport@solachey.com">Email:
+                                    customersupport@solachey.com</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class=" col-lg-4 col-12">
+                    <div class="card border mb-4 shadow">
+                        <div class="card-header text-center" id="contactHeading">USA</div>
+                        <div class="card-body" id="contactContent">
+                            <h6 class="card-title">SOLACHEY USA 77242, HOUSTON TX - USA</h6>
+                            <p class="card-text"><a href="tel:+1 (713) 3478378">Phone: +1 (713) 3478378</a></p>
+                            <p class="card-text"><a href="mailto:customersupport@solachey.com">Email:
+                                    customersupport@solachey.com</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!--Map-->
+    <section class="container-fluid px-0">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1739.261903876059!2d47.946509!3d29.325641000000005!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3fcf9ac6ae9d6b29%3A0x1390d024dc7cbc6e!2sGulfstar%20Arabian%20General%20Trading%20%26%20Contracting%20Co.%20ltd!5e0!3m2!1sen!2sin!4v1765736182976!5m2!1sen!2sin"
+            class="w-100" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="container-fluid py-lg-5 py-3 footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC1">
+                        <img src="images/imgi_1_logo.svg" class="img-fluid" />
+                        <h3>Transform Your Space with Solachey!</h3>
+                        <h5>Social Media:</h5>
+                        <div class="footerLogo">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC2">
+                        <h5>Address</h5>
+                        <p>18 St, Shuwaikh Industrial Kuwait</p>
+                        <h4>Working Hours – </h4>
+                        <h4>Shuwaikh – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 3:30 PM – 8:00 PM, Friday: Closed
+                        </p>
+                        <h4>Hawally – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 4:00 PM – 9:00 PM, Friday: Closed
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-12 text-start">
+                    <div class="footerC3">
+                        <h5>CATEGORIES</h5>
+                        <ul>
+                            <li><a href="">HVAC Product</a></li>
+                            <li><a href="">Illumination & Light sources</a></li>
+                            <li><a href="">Led Fixtures</a></li>
+                            <li><a href="">Ventilation Products</a></li>
+                            <li><a href="">Wires</a></li>
+                            <li><a href="">Wiring Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <form>
+                        <h5>Enquire Now</h5>
+                        <input type="text" placeholder="Your Name*" pattern="[a-z A-Z]{2 30}" required />
+                        <input type="email" placeholder="Your Email*" required />
+                        <input type="tel" placeholder="Phone*" pattern="[0-9]{10}" required />
+                        <textarea placeholder="Message*" required>
+					        </textarea>
+                        <button id="sendMsgBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="text-center py-2 footerLower">
+            <p>Copyright 2025© <span>Solachey</span> all rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+    <!--side logo-->
+    <div class="sideLogoOutter">
+        <div class="sideLogo">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="js/app.js"></script>

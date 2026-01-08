@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Solachey-About</title>
+</head>
+
+<body>
+    <!--Header Enquiry Modal-->
+    <div class="modal" id="enBtn" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div>
+                            <input class="w-100 border" type="text" placeholder="Your Name*" required />
+                            <input class="w-100 border" type="email" placeholder="Your Email*" required />
+                            <input class="w-100 border" type="tel" placeholder="Your Phone*" required />
+                            <textarea name="" id="" class="border" placeholder="Message*" required></textarea>
+                            <button id="sendMsgBtn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mobile Header-->
+    <div class="offcanvas offcanvas-start" id="mobileMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="images/imgi_1_logo.svg" width="80px" />
+            </h5>
+
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="product.html">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html#">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--headerSection-->
+
+    <header class="container-fluid bg-white px-lg-5 z-3" id="header">
+        <nav class="navbar navbar-expand-lg p-0">
+            <a href="" class="navbar-brand">
+                <img src="images/imgi_1_logo.svg" width="160px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="headerNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="product.html">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#enBtn" id="headerBtn" type="submit">Enquiry
+                    Now</button>
+            </div>
+        </nav>
+    </header>
+
+    <!--Hero Section-->
+    <section class="container-fluid px-0 heroSection">
+        <img src="images/About-us-banner-without-text.png" alt="About-us-banner"
+            class="img-fluid w-100 d-md-block d-none" />
+        <img src="images/imgi_9_about-us-new-mobile-without-text.png" alt="" class="img-fluid w-100 d-md-none d-block">
+        <h1>About Us</h1>
+        </div>
+    </section>
+
+    <!--Article Section-->
+    <section class="container-fluid px-0 py-lg-5 py-3 articleSection">
+        <div class="container">
+            <div class="row">
+                <article class="col-lg-12">
+                    <p>Solachey is a leading brand in the USA, specializing in modern lighting, illumination solutions,
+                        and HVAC supplies. We proudly serve both trade and contract professionals, as well as everyday
+                        consumers, delivering high-quality, innovative products that meet diverse needs. We are driven
+                        and passionate to meet the customer’s lighting and space conditioning requirements.</p>
+                </article>
+                <article class="col-lg-12">
+                    <p>From energy-efficient lighting to advanced HVAC systems, Solachey offers a unique mix of modern
+                        solutions, including exclusive pieces that can only be found with us. With a focus on quality
+                        and innovation, we are dedicated to inspiring and transforming spaces through superior design
+                        and technology.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!--Partner Section-->
+    <section class="container-fluid px-0 py-lg-5 py-3 partnerSection">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-12 imgTransform">
+                    <div>
+                        <img src="images/imgi_2_Partner-with-us-scaled.jpg" alt="" class="img-fluid" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-12">
+                    <div>
+                        <div class="partnerRight">
+                            <h2>Partner with Us - Solachey</h2>
+                            <article>
+                                <p>At Solachey, we believe that great partnerships are built on trust, collaboration,
+                                    and a shared vision for success. We are committed to creating meaningful
+                                    relationships that empower businesses and organizations to grow, innovate, and
+                                    thrive in an ever-evolving market.</p>
+                            </article>
+                            <article>
+                                <p><b>Tailored Collaboration:</b> We understand that each partner has specific goals,
+                                    challenges, and aspirations. Our approach is personalized and flexible, ensuring
+                                    that the partnership is mutually beneficial and aligned with your business
+                                    objectives.</p>
+                            </article>
+                            <article>
+                                <p><b>Shared Success:</b> We believe in win-win partnerships. At Solachey, we prioritize
+                                    the
+                                    long-term success of our partners by working together to achieve common goals. Your
+                                    success is our success.</p>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Choose Us Section-->
+    <section class="container-fluid px-0 py-lg-5 py-3 chooseUSSection">
+        <h2 class="text-center pb-lg-5">Why Choose Us</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-12">
+                    <div class="card mb-4" >
+                        <img src="images/imgi_3_mission-vision-2.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Mission/Vision</h5>
+                            <p class="card-text">Solachey's mission is to inspire and connect the world with superior
+                                quality and modern technology products, leading the way in innovation and delivering a
+                                best-in-class customer experience through our website, and customer support teams.  As
+                                experts ourselves, we understand all the steps involved in projects large and small and
+                                provide our customers with the tools and customer assistance they need to make their
+                                next project shine.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card mb-4" >
+                        <img src="images/imgi_4_sustainbility.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Sustainability</h5>
+                            <p class="card-text">At Solachey, we believe that innovation and sustainability go hand in
+                                hand. From energy-saving LED lighting to eco-friendly HVAC systems, we are dedicated to
+                                offering solutions that minimize energy consumption without compromising on quality or
+                                style. By choosing Solachey, you're not just investing in cutting-edge products, you're
+                                supporting a brand that values sustainability and actively works to reduce its carbon
+                                footprint.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-12">
+                    <div class="card mb-4" >
+                        <img src="images/imgi_5_Gulf_Confirmity_mark.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5>Certification</h5>
+                            <p class="card-text">At Solachey, we are committed to delivering products that not only meet
+                                but exceed the highest industry standards. Our entire product range is proudly GMARK
+                                certified, a globally recognized symbol of excellence, quality, safety, and
+                                sustainability. This certification reinforces our dedication to providing consumers
+                                across the Gulf Cooperation Council (GCC) region with the very best.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Video Section-->
+    <section class="container-fluid px-0 py-lg-5 py-3 videoSection">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col-lg-12">
+                    <iframe width="730" height="520" class="w-100" src="https://www.youtube.com/embed/63C7qLLQFnc"
+                        title="Solachey — A Leading Name in Electrical Solutions" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Footer Section-->
+    <footer class="container-fluid py-lg-5 py-3 footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC1">
+                        <img src="images/imgi_1_logo.svg" class="img-fluid" />
+                        <h3>Transform Your Space with Solachey!</h3>
+                        <h5>Social Media:</h5>
+                        <div class="footerLogo">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC2">
+                        <h5>Address</h5>
+                        <p>18 St, Shuwaikh Industrial Kuwait</p>
+                        <h4>Working Hours – </h4>
+                        <h4>Shuwaikh – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 3:30 PM – 8:00 PM, Friday: Closed
+                        </p>
+                        <h4>Hawally – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 4:00 PM – 9:00 PM, Friday: Closed
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-12 text-start">
+                    <div class="footerC3">
+                        <h5>CATEGORIES</h5>
+                        <ul>
+                            <li><a href="">HVAC Product</a></li>
+                            <li><a href="">Illumination & Light sources</a></li>
+                            <li><a href="">Led Fixtures</a></li>
+                            <li><a href="">Ventilation Products</a></li>
+                            <li><a href="">Wires</a></li>
+                            <li><a href="">Wiring Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <form>
+                        <h5>Enquire Now</h5>
+                        <input type="text" placeholder="Your Name*" pattern="[a-z A-Z]{2 30}" required />
+                        <input type="email" placeholder="Your Email*" required />
+                        <input type="tel" placeholder="Phone*" pattern="[0-9]{10}" required />
+                        <textarea placeholder="Message*" required>
+					        </textarea>
+                        <button id="sendMsgBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="text-center py-2 footerLower">
+            <p>Copyright 2025© <span>Solachey</span> all rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+    <!--side logo-->
+    <div class="sideLogoOutter">
+        <div class="sideLogo">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="js/app.js"></script>

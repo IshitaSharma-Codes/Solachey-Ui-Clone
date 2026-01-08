@@ -1,0 +1,676 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <title>Solachey</title>
+</head>
+
+<body>
+
+    <!--Header Enquiry Modal-->
+    <div class="modal" id="enBtn" tabindex="-1">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Enquire Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <form action="">
+                        <div>
+                            <input class="w-100 border" type="text" placeholder="Your Name*" required />
+                            <input class="w-100 border" type="email" placeholder="Your Email*" required />
+                            <input class="w-100 border" type="tel" placeholder="Your Phone*" required />
+                            <textarea name="" id="" class="border" placeholder="Message*" required></textarea>
+                            <button id="sendMsgBtn">Send Message</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Mobile Header-->
+    <div class="offcanvas offcanvas-start" id="mobileMenu">
+        <div class="offcanvas-header">
+            <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+                <img src="images/imgi_1_logo.svg" width="80px" />
+            </h5>
+
+            <button class="btn-close" type="button" data-bs-dismiss="offcanvas" aria-label="Close">
+
+            </button>
+        </div>
+        <div class="offcanvas-body">
+            <ul class="navbar-nav ">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="product.html">
+                        Products
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="blog.html">Blog</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact Us</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <!--headerSection-->
+
+    <header class="container-fluid bg-white px-lg-5 z-3" id="productHeader">
+        <nav class="navbar navbar-expand-lg p-0">
+            <a href="" class="navbar-brand">
+                <img src="images/imgi_1_logo.svg" width="160px" />
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#mobileMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse justify-content-end" id="headerNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About Us</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link " href="product.html">
+                            Products
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact Us</a>
+                    </li>
+                </ul>
+                <button class="btn" data-bs-toggle="modal" data-bs-target="#enBtn" id="headerBtn" type="submit">Enquiry
+                    Now</button>
+            </div>
+        </nav>
+    </header>
+
+
+    <!--Product Section-->
+    <section class="container-fluid px-0  py-lg-5 py-3  productSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h5 class="mb-lg-3 mb-2"><a href="index.html">Home/</a><a href="product.html">Product</a></h5>
+                </div>
+                <div class="col-lg-3 col-12 productCategories  mb-3">
+                    <h4>Product Categories</h4>
+                    <ul class="">
+                        <li><a href="#">HVAC Product</a></li>
+                        <li><a href="#">Illumination & Light sources</a></li>
+                        <li><a href="#">Led Fixtures</a></li>
+                        <li><a href="#">Ventilation Products</a></li>
+                        <li><a href="#">Wires</a></li>
+                        <li><a href="#">Wiring Accessories</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-9 col-12 ">
+                    <div class="row">
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_30_SLY400WFLT-1024x1024 (1).png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Led Fixtures</a></h5>
+                                    <p class="card-text">LED FLOOD LIGHTS</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_31_SLYGFL10WB-1024x1024 (1).png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Led Fixtures</a></h5>
+                                    <p class="card-text">Garden Lights</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_32_SLY15A7815-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Wiring Accessories</a></h5>
+                                    <p class="card-text">Extensions & Plugs</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card" id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_33_SLYSW2G13AU-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Wiring Accessories</a></h5>
+                                    <p class="card-text">Sockets</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_34_SLYSW4G004-1024x1024 (1).png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Wiring Accessories</a></h5>
+                                    <p class="card-text">Switches</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_35_SLYFAF6001-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Ventilation Products</a></h5>
+                                    <p class="card-text">Metal Exhaust Fans</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card" id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_36_white_-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Ventilation Products</a></h5>
+                                    <p class="card-text">Ceiling Fans</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_37_SLYHSF26008-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Ventilation Products</a></h5>
+                                    <p class="card-text">Pedestal, Wall & Desk Fans</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_38_SLYAU60008-1024x1024 (1).png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Ventilation Products</a></h5>
+                                    <p class="card-text">PVC Ventilation Fans</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_39_SLYFW2CX1.5MM-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">WIRES</a></h5>
+                                    <p class="card-text">WIRES</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_12_COMGMCC18K-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">HVAC Products</a></h5>
+                                    <p class="card-text">Compressors GMCC</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_13_CCL1_2X0.71MM-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">HVAC Products</a></h5>
+                                    <p class="card-text">Copper Coils Vietnam</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_14_SLY-RGAS-R134A-1024x1024.png"
+                                        class="card-img-top img-fluid" alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">HVAC Products</a></h5>
+                                    <p class="card-text">Refrigeration Gases</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_15_SLY5WPPDL-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED DOB PANEL FIXTURES</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_16_SLYRL2835-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED ROPE LIGHTS</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_17_SLYT81X20W-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED BATTEN FIXTURES</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_18_SLY1X20WPF-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED WATER PROOFFIXTURES- IP65</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_19_SLY50WCAB-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED CABINET/DUSTPROOF FIXTURES</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_20_SLY100WHBF-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED HIGH BAY FITTINGS</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_21_SLY10WRDL-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED RECESSEDDOWNLIGHTS</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_15_SLY5WPPDL-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">LED FIXTURES</a></h5>
+                                    <p class="card-text">LED PANEL FIXTURE</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_23_SLY10WCPL-1-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED Capsule Type Bulb</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_24_SLY28WUPO-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED UFO Type Bulb</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_25_SLY15WR80-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED R Type Bulb</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_26_SLY30WTS-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED T Type Bulb</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_27_SLY9WA60-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED A Type Bulb</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-lg-4 col-12 mb-3" >
+
+                            <div class="card"  id="products">
+                                <div class="productImg">
+                                    <img src="images/imgi_28_SLY20WT8-1024x1024.png" class="card-img-top img-fluid"
+                                        alt="..." />
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title"><a href="">Illumination & Light sources</a></h5>
+                                    <p class="card-text">LED FLOURESCENT TUBES</p>
+                                    <button id="productBtn">
+                                        Details
+                                    </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--Footer Section-->
+    <footer class="container-fluid py-lg-5 py-3 footerSection">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC1">
+                        <img src="images/imgi_1_logo.svg" class="img-fluid" />
+                        <h3>Transform Your Space with Solachey!</h3>
+                        <h5>Social Media:</h5>
+                        <div class="footerLogo">
+                            <i class="fa-brands fa-facebook-f"></i>
+                            <i class="fa-brands fa-instagram"></i>
+                            <i class="fa-brands fa-youtube"></i>
+                            <i class="fa-brands fa-linkedin"></i>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 col-12">
+                    <div class="footerC2">
+                        <h5>Address</h5>
+                        <p>18 St, Shuwaikh Industrial Kuwait</p>
+                        <h4>Working Hours – </h4>
+                        <h4>Shuwaikh – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 3:30 PM – 8:00 PM, Friday: Closed
+                        </p>
+                        <h4>Hawally – Kuwait</h4>
+                        <p>
+                            Saturday – Thursday: 8:00 AM – 1:30 PM, 4:00 PM – 9:00 PM, Friday: Closed
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-6 col-12 text-start">
+                    <div class="footerC3">
+                        <h5>CATEGORIES</h5>
+                        <ul>
+                            <li><a href="">HVAC Product</a></li>
+                            <li><a href="">Illumination & Light sources</a></li>
+                            <li><a href="">Led Fixtures</a></li>
+                            <li><a href="">Ventilation Products</a></li>
+                            <li><a href="">Wires</a></li>
+                            <li><a href="">Wiring Accessories</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12">
+                    <form>
+                        <h5>Enquire Now</h5>
+                        <input type="text" placeholder="Your Name*" pattern="[a-z A-Z]{2 30}" required />
+                        <input type="email" placeholder="Your Email*" required />
+                        <input type="tel" placeholder="Phone*" pattern="[0-9]{10}" required />
+                        <textarea placeholder="Message*" required>
+					        </textarea>
+                        <button id="sendMsgBtn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <hr />
+        <div class="text-center py-2 footerLower">
+            <p>Copyright 2025© <span>Solachey</span> all rights reserved.</p>
+        </div>
+        </div>
+    </footer>
+    <!--side logo-->
+    <div class="sideLogoOutter">
+        <div class="sideLogo">
+            <i class="fa-solid fa-message"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-brands fa-whatsapp"></i>
+        </div>
+        <div class="sideLogo">
+            <i class="fa-solid fa-phone"></i>
+        </div>
+    </div>
+</body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+<script src="https://ajax.aspnetcdn.com/ajax/jQuery/jquery-3.4.1.min.js"></script>
+<script src="js/app.js"></script>
